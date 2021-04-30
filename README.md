@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Ihesiulor/country-api)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/country-api-h7W4kO_V8)
 - Live Site URL: [Netlify](https://ihesiulor-countries.netlify.app/)
 
 ## My process
