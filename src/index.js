@@ -1,15 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { Helmet } from "react-helmet";
+import ReactDOM from "react-dom";
+import "./styles/index.css";
+import App from "./App";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Country API</title>
+      <meta
+        name="description"
+        content="Country API is a searchable list of countries and information about those countries"
+      />
+      <link rel="canonical" href="https://ihesiulor-countries.netlify.app/" />
+    </Helmet>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
