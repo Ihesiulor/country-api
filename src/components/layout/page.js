@@ -27,7 +27,7 @@ const Page = () => {
       <div className="w-full flex flex-col">
         <List />
       </div>
-      <Pagination className="w-1/3 px-2 my-6 flex justify-between" />
+      <Pagination className="w-2/3 md:w-1/4 px-2 my-6 flex justify-between" />
     </div>
   );
 };
